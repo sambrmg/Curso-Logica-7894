@@ -1,2 +1,20 @@
 1 - crie um sistema para verificar se o usuario pode logar no sistema:
 o usuario sera: 'admin' e a senha sera: '7894'
+
+2 - Crie um programa para verificar se um triangulo é Equilátero, Isósceles ou Escaleno
+ - um triângulo isósceles é um triângulo que possui dois lados de mesma medida
+ - um triângulo equilátero é todo triângulo em que os três lados são iguais
+ - um triângulo escaleno nenhum dos lados sao iguais
+ 
+
+3 - As	maçãs	 custam	 R$	 0,30	 cada	 se	 forem	 compradas	menos	 do	 que	 uma	
+dúzia,	 e	 R$	 0,25	 se	 forem	 compradas	 pelo	 menos	 doze.	 Escreva	 um	
+programa	 que	 leia	 o	 número	 de	 maçãs	 compradas,	 calcule	 e	 escreva	 o	
+valor	total	da	compra.
+
+4 - Escreva	 um	 programa	 para	 ler	 o	 ano	 de	 nascimento	 de	 uma	 pessoa	 e	
+escrever	 uma	 mensagem	 que	 diga	 se	 ela	 poderá	 ou	 não	 votar	 este	 ano	
+(não	é	necessário	considerar	o	mês	em	que	ela	nasceu).
+
+5 - Escreva	 um	 programa	 para	 ler	 2	 valores	 (considere	 que	 	 não	 serão	
+informados	valores	iguais)	e	escrever	o	maior	deles.
