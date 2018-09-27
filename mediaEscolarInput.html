@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="valorInformado" onkeypress="inserirComEnter(event)">
+    <input type="button" value="Incluir" onclick="incluir()">
+    <input type="button" value="Calcular Media" onclick="media()">
+    <input type="button" value="Limpar notas" onclick="limparNotas()">
+    <script>
+    
+        var notas = [];
+        var soma = 0;
+        
+        function incluir(){
+            notas.push( parseInt(document.getElementById('valorInformado').value) );
+            document.getElementById('valorInformado').value = ''
+            console.log(notas);
+        }
+
+        function media(){
+            for (let index = 0; index < notas.length; index++) {
+                soma = soma + notas[index];
+            }
+            var media = soma / notas.length;
+    
+            if(media >= 7){
+                alert('Você foi aprovado com a media: ' + media)
+            }else{
+                alert('Você foi reprovado com a media: ' + media)
+            }
+        }
+
+        function limparNotas(){
+            notas = [];
+            soma = 0;
+        }
+
+        function inserirComEnter(event) {
+            if (event.which == 13 || event.keyCode == 13) {
+                incluir()
+            }
+        }
+    </script>
+</body>
+</html>
